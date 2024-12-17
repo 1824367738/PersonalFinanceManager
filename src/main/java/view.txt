@@ -1,0 +1,29 @@
+FinanceManager/
+├── model/                     # 数据模型层
+│   ├── Account.java           # 账户类
+│   ├── Category.java          # 分类类
+│   ├── Transaction.java       # 交易类
+│   ├── Budget.java            # 预算类
+│   ├── Report.java            # 报告类
+│   └── DatabaseManager.java   # 数据库管理（单例模式）
+├── view/                      # 视图层
+│   ├── MainView.fxml          # 主界面
+│   ├── TransactionView.fxml   # 交易记录界面
+│   ├── BudgetView.fxml        # 预算设置界面
+│   ├── ReportView.fxml        # 报告界面
+│   ├── AccountView.fxml       # 账户管理界面
+│   └── AlertView.fxml         # 预算提醒弹窗
+├── controller/                # 控制器层
+│   ├── MainController.java    # 主界面控制器
+│   ├── TransactionController.java # 交易控制器
+│   ├── BudgetController.java  # 预算控制器
+│   ├── ReportController.java  # 报告控制器
+│   ├── AccountController.java # 账户控制器
+│   └── AlertController.java   # 提醒控制器
+├── utils/                     # 工具类
+│   ├── EncryptionUtil.java    # 加密工具类（AES）
+│   ├── ChartFactory.java      # 图表工厂类（工厂模式）
+│   ├── AlertManager.java      # 观察者模式实现
+│   └── ExportUtil.java        # 数据导出工具类（策略模式）
+└── resources/                 # 资源文件
+    └── images/                # 图标和其他资源

@@ -1,0 +1,53 @@
+/* 设置 ScrollPane 背景颜色 */
+.scroll-pane {
+    -fx-background-color: transparent;   /* 透明背景 */
+    -fx-border-color: #666666;       /* 边框颜色 */
+    -fx-border-width: 0px;           /* 边框宽度 */
+}
+
+/* 设置滚动条样式 */
+.scroll-bar {
+    -fx-background-color: #25292F;   /* 滚动条背景颜色 */
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #888888;   /* 滑块颜色 */
+    -fx-background-radius: 5px;      /* 滑块圆角 */
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: #25292F;   /* 滚动按钮颜色 */
+}
+
+/* 设置滚动条在悬停时的颜色 */
+.scroll-bar .thumb:hover {
+    -fx-background-color: #555555;
+}
+
+.rounded-rectangle {
+    -fx-arc-width: 7; /* 圆角宽度 */
+    -fx-arc-height: 7; /* 圆角高度 */
+    -fx-fill: cornflowerblue; /* 填充颜色 */
+    -fx-stroke: black; /* 边框颜色 */
+    -fx-stroke-width: 3; /* 边框宽度 */
+}
+
+/*
+.chosenButton {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-border-width: 0px;
+    -fx-background-radius: 0;
+    -fx-background-color: #595F69;
+}
+
+.unChosenButton {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-border-width: 0px;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+}*/
